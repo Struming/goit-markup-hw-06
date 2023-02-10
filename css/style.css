@@ -48,8 +48,6 @@ img{
 }
 /*  ___________________задати змінну________________________ */
 :root{
-    --modal: #2E2F42;
-    --text:#FFFFFF;
     --clouse-x: #d1dcd9;
     --modal-clouse:#E7E9FC;
     --modal: #FCFCFC;
@@ -413,9 +411,7 @@ padding-bottom: 100px;
 .colortext {
 color: var(--cloud);
 }
-
 .footer-parag {
-    
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -461,15 +457,17 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:var(--text);
+color: #FFFFFF;
 gap: 16px;
 }
+
 .input-footer{
     padding-bottom: 100px;
     margin-right: 80px;
     display: flex;
 gap: 24px;
 padding-top: 16px;
+    
 }
 .online-footer{
     width: 264px;
@@ -481,18 +479,20 @@ padding-top: 16px;
     font-size: 12px;
     background-color: transparent;
 }
+
 .online-footer::placeholder{
     color: rgba(255, 255, 255, 0.6);;
 }
 .wrap-button-input{
     position: relative;
+
 }
 .button-input-footer{
-min-width: 165px;
+    min-width: 165px;
 height: 40px;
 font-size: 16px;
-color: var(--text);
-background-color:var(--iris);
+color:  #FFFFFF;
+background-color: #4D5AE5;
 cursor: pointer;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
@@ -506,7 +506,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color:var(--text);
+color: #FFFFFF;
 padding-left: 24px;
 gap: 16px;
 }
@@ -515,7 +515,10 @@ gap: 16px;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
+
 }
+
+
 /*____________________________ portfolio __________________________________*/
 .button-list{
     display: flex;
@@ -675,7 +678,7 @@ font-size: 16px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
-color: var(--modal);
+color: #2E2F42;
 margin-bottom: 16px;
 }
 .fild{
@@ -736,14 +739,14 @@ margin-bottom: 16px;
 .check-text{
     font-size: 14px;
     font-weight: 600px;
-    color: var(--ocean);
+    color: #404BBF;
     display: flex;
     }
 .check-text::before{
 content: '';
 width: 16px;
 height: 16px;
-border: 1.25px solid var(--modal);
+border: 1.25px solid #2E2F42;
 border-radius: 2px;
 margin-right: 8px;
 margin-right: 8px;
@@ -767,7 +770,7 @@ color: #757575;
 line-height: 1.2;
 letter-spacing: 0.04em;
 text-decoration-line: underline;
-color: var(--iris);
+color: #4D5AE5;
 margin-left: 2px;
 margin-bottom: 18px;
 }
@@ -775,8 +778,8 @@ margin-bottom: 18px;
 width: 169px;
 height: 56px;
 font-size: 16px;
-color:  var(--text);
-background-color: var(--iris);
+color:  #FFFFFF;
+background-color: #4D5AE5;
 cursor: pointer;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
