@@ -469,6 +469,7 @@ color: var(--title);
 }
 
 .input-footer{
+    margin-left: auto;
     margin-right: 80px;
     display: flex;
     gap: 24px;
